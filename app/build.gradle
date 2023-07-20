@@ -4,15 +4,13 @@ plugins {
     id 'kotlin-android-extensions'
     id 'kotlin-kapt'
     id 'realm-android'
-    //id 'com.google.gms.google-services'
-    //id 'com.mapbox.maps.token'
 }
 
 android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.test.app"
+        applicationId "com.test.app2"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
@@ -34,14 +32,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-//    configurations {
-//        all { // You should exclude one of them not both of them
-//            exclude group: "com.mapbox.mapboxsdk", module: "mapbox-android-core:0.2.1"
-//        }
-//    }
-//    realm {
-//        syncEnabled = true
-//    }
+    realm {
+        syncEnabled = true
+    }
 }
 
 dependencies {
@@ -57,15 +50,13 @@ dependencies {
     // Lottie dependency
     implementation 'com.airbnb.android:lottie:3.4.0'
 
-    implementation 'com.google.android.gms:play-services-maps:18.0.0'
-    implementation 'com.google.android.gms:play-services-location:18.0.0'
-
-    implementation 'com.google.maps.android:android-maps-utils:1.0.0'
-
     implementation 'com.squareup.retrofit2:retrofit:2.0.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.0.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
 
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

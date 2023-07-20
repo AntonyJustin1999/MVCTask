@@ -291,7 +291,7 @@
                             android:layout_marginRight="@dimen/_5sdp"
                             android:layout_marginTop="@dimen/_15sdp"
                             android:textColor="@color/color_primary"
-                            android:text="Are You New?"
+                            android:text="Already Have an Account?"
                             android:textAlignment="textEnd"
                             />
 
@@ -303,7 +303,7 @@
                             android:layout_marginRight="@dimen/_10sdp"
                             android:layout_marginTop="@dimen/_15sdp"
                             android:textColor="@color/black"
-                            android:text="Register Here"
+                            android:text="Login Here"
                             android:layout_toRightOf="@id/tv_register_label"
                             />
 

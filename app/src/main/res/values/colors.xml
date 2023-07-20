@@ -14,4 +14,9 @@
     <color name="color1">#0091ea</color>
     <color name="color2">#00bfa5</color>
     <color name="grey_300">#E0E0E0</color>
+
+    <color name="color_activity_a">#FF0000</color>
+    <color name="color_activity_b">#00FF00</color>
+    <color name="color_activity_c">#0000FF</color>
+    <color name="color_activity_d">#FFFF00</color>
 </resources>

@@ -9,7 +9,6 @@
         app:showAsAction="always" />
 
     <item
-        app:actionLayout="@layout/menu_notification_layout"
         android:id="@+id/with_notify"
         android:orderInCategory="100"
         android:title="@string/app_name"
